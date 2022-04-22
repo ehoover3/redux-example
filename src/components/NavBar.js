@@ -13,5 +13,10 @@ export default function NavBar() {
     height: "50px",
   };
 
-  return <h1 style={style}>Number of Zoo Animals: {count}</h1>;
+  return (
+    <div>
+      <h1 style={style}>Number of Zoo Animals: {count}</h1>
+      <div></div>
+    </div>
+  );
 }
