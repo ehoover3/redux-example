@@ -7,7 +7,7 @@ const initialState = {
 };
 
 // 2. ACTIONS inside the REDUCER
-export const counterSlice = createSlice({
+export const animalReducer = createSlice({
   name: "counter", // A name, used in action types
   initialState, // The initial state for the reducer
   reducers: {
@@ -24,11 +24,11 @@ export const counterSlice = createSlice({
 });
 
 // 3a. EXPORT THE ACTIONS (this is sent to components)
-export const { add: add, subtract: subtract, addByAmount: addByAmount } = counterSlice.actions;
+export const { add: add, subtract: subtract, addByAmount: addByAmount } = animalReducer.actions;
 
 // 3b. CREATE THE STORE (this is sent to index.js)
 export const store = configureStore({
   reducer: {
-    counter: counterSlice.reducer,
+    counter: animalReducer.reducer,
   },
 });
