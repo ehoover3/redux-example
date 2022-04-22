@@ -7,7 +7,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div>
+    <div style={{ backgroundColor: "rgb(217,217,218)", width: "100vw", height: "100vh" }}>
       <NavBar />
       <SeaTurtle />
       <LandTurtle />

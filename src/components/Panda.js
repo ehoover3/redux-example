@@ -17,7 +17,15 @@ export default function Snakes() {
   };
 
   return (
-    <div style={{ backgroundColor: "lightblue" }}>
+    <div
+      style={{
+        backgroundColor: "rgb(248,205,35)",
+        outline: "3px solid rgb(51,51,51)",
+        padding: "5px",
+        margin: "25px",
+        width: "90vw",
+      }}
+    >
       {/* THE NUMBER */}
       <h2>Pandas</h2>
       <div>This is a dispatch with a payload example</div>

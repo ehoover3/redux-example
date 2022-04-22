@@ -5,8 +5,8 @@ export default function NavBar() {
   const count = useSelector((state) => state.counter.value); // get initial value from store
 
   const style = {
-    outline: "3px solid black",
-    backgroundColor: "orange",
+    outline: "3px solid rgb(51,51,51)",
+    backgroundColor: "rgb(102,153,0)",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",

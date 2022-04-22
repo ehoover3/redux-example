@@ -21,7 +21,15 @@ export default function Kangaroos() {
   };
 
   return (
-    <div style={{ backgroundColor: "lightgreen" }}>
+    <div
+      style={{
+        backgroundColor: "rgb(248,205,35)",
+        outline: "3px solid rgb(51,51,51)",
+        padding: "5px",
+        margin: "25px",
+        width: "90vw",
+      }}
+    >
       {/* THE NUMBER */}
       <h2>Kangaroos ({kangaroos} kangaroos)</h2>
       <div>This is a dispatch & useState example (same code as land turtle)</div>
