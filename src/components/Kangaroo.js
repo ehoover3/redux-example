@@ -27,7 +27,7 @@ export default function Kangaroos() {
         outline: "3px solid rgb(51,51,51)",
         padding: "5px",
         margin: "25px",
-        width: "90vw",
+        width: "500px",
       }}
     >
       {/* THE NUMBER */}

@@ -7,7 +7,16 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div style={{ backgroundColor: "rgb(217,217,218)", width: "100vw", height: "100vh" }}>
+    <div
+      style={{
+        backgroundColor: "rgb(217,217,218)",
+        width: "100vw",
+        height: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
+    >
       <NavBar />
       <SeaTurtle />
       <LandTurtle />

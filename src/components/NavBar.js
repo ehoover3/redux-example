@@ -11,6 +11,7 @@ export default function NavBar() {
     justifyContent: "center",
     alignItems: "center",
     height: "50px",
+    width: "100vw",
   };
 
   return (
